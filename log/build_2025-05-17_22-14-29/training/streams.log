@@ -1,0 +1,48 @@
+[0.481s] Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training': PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build install --record /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/install.log --single-version-externally-managed install_data
+[0.585s] /home/ram/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.585s]   warnings.warn(msg)
+[0.643s] running egg_info
+[0.652s] creating ../../build/training/training.egg-info
+[0.653s] writing ../../build/training/training.egg-info/PKG-INFO
+[0.653s] writing dependency_links to ../../build/training/training.egg-info/dependency_links.txt
+[0.653s] writing entry points to ../../build/training/training.egg-info/entry_points.txt
+[0.653s] writing requirements to ../../build/training/training.egg-info/requires.txt
+[0.653s] writing top-level names to ../../build/training/training.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[0.674s] reading manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[0.674s] adding license file 'LICENSE'
+[0.675s] writing manifest file '../../build/training/training.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.675s] running build_py
+[0.675s] creating /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.675s] copying training/service_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.675s] copying training/client_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.675s] copying training/publisher_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.675s] copying training/subscriber_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.675s] copying training/__init__.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training
+[0.676s] running install
+[0.680s] running install_lib
+[0.691s] creating /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] copying /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training/service_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] copying /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training/client_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] copying /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training/publisher_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] copying /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training/subscriber_member_function.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] copying /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build/lib/training/__init__.py -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training
+[0.691s] byte-compiling /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training/service_member_function.py to service_member_function.cpython-310.pyc
+[0.692s] byte-compiling /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training/client_member_function.py to client_member_function.cpython-310.pyc
+[0.692s] byte-compiling /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.693s] byte-compiling /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.693s] byte-compiling /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training/__init__.py to __init__.cpython-310.pyc
+[0.693s] running install_data
+[0.693s] creating /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/ament_index/resource_index/packages
+[0.693s] copying resource/training -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training
+[0.694s] running install_egg_info
+[0.708s] Copying ../../build/training/training.egg-info to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training-0.0.0-py3.10.egg-info
+[0.708s] running install_scripts
+[0.793s] Installing client script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.793s] Installing listener script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.793s] Installing service script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.793s] Installing talker script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.793s] writing list of installed files to '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/install.log'
+[0.815s] Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training' returned '0': PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/training build --build-base /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build install --record /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/install.log --single-version-externally-managed install_data

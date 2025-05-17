@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'talker = training.publisher_member_function:main',
             'listener = training.subscriber_member_function:main',
+            'service = training.service_member_function:main',
+            'client = training.client_member_function:main',
         ],
     },
 )
