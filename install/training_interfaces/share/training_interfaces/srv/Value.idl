@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from training_interfaces/srv/Value.srv
+// generated code does not contain a copyright notice
+
+
+module training_interfaces {
+  module srv {
+    struct Value_Request {
+      int32 a;
+
+      int32 b;
+    };
+    struct Value_Response {
+      int32 val;
+    };
+  };
+};
