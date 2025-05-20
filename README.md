@@ -2,7 +2,7 @@
 A humble distro's practice.
 
 ## Demo video
-[Click to watch the demo](media/demo-video.mp4)
+[Click to watch the demo](https://drive.google.com/file/d/1LIyxLz-5gxEQXeS0jAg2ZJjzHv6a5EfB/view?usp=sharing)
 
 ## Installation :- 
 
