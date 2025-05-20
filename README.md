@@ -16,7 +16,7 @@ Initialize and update submodules
 
 Build the project using colcon:
 
-    colcon build --symlink-install
+    colcon build
 
 Important:
 After building, source the setup file in every new terminal before running any ROS2 commands:
