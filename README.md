@@ -89,6 +89,8 @@ In another terminal:
 
 (Replace 1 and 2 with any numbers as arguments to the client)
 
+![Screenshot from 2025-05-20 16-57-41](https://github.com/user-attachments/assets/1e5bc9bd-ac89-4966-a238-d790facf5cf0)
+
 ## progress:
 from 1st task
 - [x] 2-wheel differential drive robot URDF
