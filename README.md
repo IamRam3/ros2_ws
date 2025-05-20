@@ -9,7 +9,7 @@ A humble distro's practice.
  - OS: Ubuntu 22.04 LTS (strongly recommended for ROS 2 Humble)
  - CPU: 64-bit processor
  - RAM: 8 GB or more (recommended)
- - Libraries: ROS, Gazebo, and other dependencies
+ - Libraries: [ROS](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html), gazebo_ros.
 
 ## Installation :- 
 
