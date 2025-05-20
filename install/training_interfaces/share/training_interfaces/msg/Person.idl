@@ -1,14 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from training_interfaces/msg/Person.msg
-// generated code does not contain a copyright notice
-
-
-module training_interfaces {
-  module msg {
-    struct Person {
-      string name;
-
-      int32 age;
-    };
-  };
-};
+/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces/rosidl_adapter/training_interfaces/msg/Person.idl

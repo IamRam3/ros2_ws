@@ -1,0 +1,3 @@
+[submodule "src/articulate_one"]
+	path = src/articulate_one
+	url = https://github.com/IamRam3/articulate_one.git

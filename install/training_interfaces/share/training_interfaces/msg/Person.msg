@@ -1,2 +1,1 @@
-string name
-int32 age
+/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces/msg/Person.msg

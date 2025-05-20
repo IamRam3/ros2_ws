@@ -1,0 +1,22 @@
+[0.498s] Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training': CMAKE_PREFIX_PATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one:/home/ram/ros2_ws/install/my_robot_description PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build --no-deps symlink_data
+[0.600s] /home/ram/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.600s]   warnings.warn(msg)
+[0.714s] running develop
+[0.853s] running egg_info
+[0.864s] writing training.egg-info/PKG-INFO
+[0.864s] writing dependency_links to training.egg-info/dependency_links.txt
+[0.864s] writing entry points to training.egg-info/entry_points.txt
+[0.864s] writing requirements to training.egg-info/requires.txt
+[0.864s] writing top-level names to training.egg-info/top_level.txt
+[0.886s] reading manifest file 'training.egg-info/SOURCES.txt'
+[0.887s] writing manifest file 'training.egg-info/SOURCES.txt'
+[0.898s] running build_ext
+[0.898s] Creating /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages/training.egg-link (link to .)
+[0.899s] Installing client script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.899s] Installing listener script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.899s] Installing service script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.899s] Installing talker script to /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/training
+[0.899s] 
+[0.899s] Installed /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training
+[0.900s] running symlink_data
+[0.926s] Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training' returned '0': CMAKE_PREFIX_PATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one:/home/ram/ros2_ws/install/my_robot_description PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build --no-deps symlink_data

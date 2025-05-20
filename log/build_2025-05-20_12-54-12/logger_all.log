@@ -1,0 +1,273 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x716b3ee52170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x716b3ee51330>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x716b3ee51330>>)
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.096s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.096s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/articulate_one) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articulate_one' with type 'ros.ament_cmake' and name 'articulate_one'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/training) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/training' with type 'ros.ament_python' and name 'training'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/training_interfaces) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/training_interfaces' with type 'ros.ament_cmake' and name 'training_interfaces'
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.124s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.124s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.124s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ram/Downloads/trash/Gahan_AI/ros2_ws/install
+[0.125s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ram/ros2_ws/install
+[0.126s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 403 installed packages in /opt/ros/humble
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.160s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'articulate_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'articulate_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one', 'merge_install': False, 'path': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/articulate_one', 'symlink_install': True, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'training_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces', 'merge_install': False, 'path': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_target' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_clean_cache' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_clean_first' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'cmake_force_configure' from command line to 'False'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'ament_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'catkin_cmake_args' from command line to 'None'
+[0.161s] Level 5:colcon.colcon_core.verb:set package 'training' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.161s] DEBUG:colcon.colcon_core.verb:Building package 'training' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training', 'merge_install': False, 'path': '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training', 'symlink_install': True, 'test_result_base': None}
+[0.162s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.162s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces' with build type 'ament_cmake'
+[0.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces'
+[0.164s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/articulate_one' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/articulate_one'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake /home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces
+[0.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake /home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/articulate_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake /home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/articulate_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --build /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one -- -j8 -l8
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --build /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one -- -j8 -l8
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --install /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one
+[0.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articulate_one)
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --install /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one' for CMake module files
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one' for CMake config files
+[0.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('articulate_one', 'cmake_prefix_path')
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.sh'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/bin'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/lib/pkgconfig/articulate_one.pc'
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/lib/python3.10/site-packages'
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/bin'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.ps1'
+[0.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.dsv'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.sh'
+[0.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.bash'
+[0.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.zsh'
+[0.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/colcon-core/packages/articulate_one)
+[0.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articulate_one)
+[0.946s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one' for CMake module files
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one' for CMake config files
+[0.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('articulate_one', 'cmake_prefix_path')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.ps1'
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.dsv'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/hook/cmake_prefix_path.sh'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/bin'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/lib/pkgconfig/articulate_one.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/bin'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.bash'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/articulate_one/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/articulate_one/share/colcon-core/packages/articulate_one)
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake /home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces
+[1.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --build /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces -- -j8 -l8
+[3.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --build /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces -- -j8 -l8
+[3.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --install /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces
+[3.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training_interfaces)
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' for CMake module files
+[3.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training:/opt/ros/humble /usr/local/bin/cmake --install /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces
+[3.589s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' for CMake config files
+[3.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_interfaces', 'cmake_prefix_path')
+[3.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.ps1'
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.dsv'
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.sh'
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib'
+[3.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_interfaces', 'ld_library_path_lib')
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.ps1'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.dsv'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.sh'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/bin'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib/pkgconfig/training_interfaces.pc'
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib/python3.10/site-packages'
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/bin'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.ps1'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.dsv'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.sh'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.bash'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.zsh'
+[3.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/colcon-core/packages/training_interfaces)
+[3.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training_interfaces)
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' for CMake module files
+[3.594s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces' for CMake config files
+[3.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_interfaces', 'cmake_prefix_path')
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.ps1'
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.dsv'
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/cmake_prefix_path.sh'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib'
+[3.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('training_interfaces', 'ld_library_path_lib')
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.ps1'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.dsv'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/hook/ld_library_path_lib.sh'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/bin'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib/pkgconfig/training_interfaces.pc'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/lib/python3.10/site-packages'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/bin'
+[3.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.ps1'
+[3.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.dsv'
+[3.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.sh'
+[3.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.bash'
+[3.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/training_interfaces/package.zsh'
+[3.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training_interfaces/share/colcon-core/packages/training_interfaces)
+[3.598s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training' with build type 'ament_python'
+[3.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('training', 'ament_prefix_path')
+[3.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/ament_prefix_path.ps1'
+[3.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/ament_prefix_path.dsv'
+[3.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/ament_prefix_path.sh'
+[3.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.754s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/src/training'
+[3.755s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training': PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build --no-deps symlink_data
+[4.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('training', 'pythonpath_develop')
+[4.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training' returned '0': PYTHONPATH=/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/build --no-deps symlink_data
+[4.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/share/training/hook/pythonpath_develop.ps1'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/share/training/hook/pythonpath_develop.dsv'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training/share/training/hook/pythonpath_develop.sh'
+[4.627s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training' for CMake module files
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training' for CMake config files
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib'
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/bin'
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/pkgconfig/training.pc'
+[4.628s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/lib/python3.10/site-packages'
+[4.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('training', 'pythonpath')
+[4.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/pythonpath.ps1'
+[4.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/pythonpath.dsv'
+[4.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/hook/pythonpath.sh'
+[4.629s] Level 1:colcon.colcon_core.environment:checking '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/bin'
+[4.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(training)
+[4.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/package.ps1'
+[4.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/package.dsv'
+[4.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/package.sh'
+[4.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/package.bash'
+[4.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/training/package.zsh'
+[4.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/training/share/colcon-core/packages/training)
+[4.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.631s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.643s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/local_setup.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/_local_setup_util_ps1.py'
+[4.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/setup.ps1'
+[4.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/local_setup.sh'
+[4.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/_local_setup_util_sh.py'
+[4.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/setup.sh'
+[4.656s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/local_setup.bash'
+[4.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/setup.bash'
+[4.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/local_setup.zsh'
+[4.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ram/Downloads/trash/Gahan_AI/ros2_ws/install/setup.zsh'
