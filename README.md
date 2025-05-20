@@ -4,6 +4,13 @@ A humble distro's practice.
 ## Demo video
 [Click to watch the demo](https://drive.google.com/file/d/1LIyxLz-5gxEQXeS0jAg2ZJjzHv6a5EfB/view?usp=sharing)
 
+## Prerequisites :-
+✅ System Requirements
+ - OS: Ubuntu 22.04 LTS (strongly recommended for ROS 2 Humble)
+ - CPU: 64-bit processor
+ - RAM: 8 GB or more (recommended)
+ - Libraries: ROS, Gazebo, and other dependencies
+
 ## Installation :- 
 
 ### Clone the repository
@@ -37,6 +44,9 @@ Usage
 
     ros2 launch articulate_one launch_sim.launch.py
 
+![Screenshot from 2025-05-20 16-35-28](https://github.com/user-attachments/assets/c5eaf2a3-4d23-425b-9786-8c450301394f)
+
+
 Optional: Teleoperate the robot in the simulation
 
     ros2 run teleop_twist_keyboard teleop_twist_keyboard
@@ -49,6 +59,9 @@ In a new terminal (with the workspace sourced), run:
 
 (Assuming you are in the ROS2 workspace directory and the simulation is running)
 
+![Screenshot from 2025-05-20 16-36-53](https://github.com/user-attachments/assets/291f6b75-c774-442b-bcea-b1a49e4a0af0)
+
+
 ### 2. Running Custom ROS2 Packages and Nodes
 
 #### Running publisher and subscriber nodes
@@ -60,6 +73,9 @@ In the first terminal:
 In a second terminal:
 
     ros2 run training listener
+
+![Screenshot from 2025-05-20 16-39-01](https://github.com/user-attachments/assets/d69a6cf9-20d6-487d-ac82-45d78116ca28)
+
 
 #### Running custom service and client
 
