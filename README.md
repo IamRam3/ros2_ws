@@ -1,6 +1,9 @@
 # ros2_ws
 A humble distro's practice.
 
+## Demo video
+[Click to watch the demo](media/demo-video.mp4)
+
 ## Installation :- 
 
 ### Clone the repository
