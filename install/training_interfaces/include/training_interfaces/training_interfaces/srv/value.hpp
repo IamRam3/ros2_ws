@@ -1,1 +1,0 @@
-/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces/rosidl_generator_cpp/training_interfaces/srv/value.hpp

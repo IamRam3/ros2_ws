@@ -1,1 +1,0 @@
-/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces/rosidl_generator_c/training_interfaces/msg/detail/person__type_support.h

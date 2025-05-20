@@ -1,1 +1,0 @@
-/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/articulate_one/ament_cmake_environment_hooks/local_setup.sh

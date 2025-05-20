@@ -1,1 +1,0 @@
-/home/ram/Downloads/trash/Gahan_AI/ros2_ws/build/training_interfaces/rosidl_typesupport_introspection_c/training_interfaces/srv/detail/value__rosidl_typesupport_introspection_c.h
