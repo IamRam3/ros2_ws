@@ -91,8 +91,8 @@ In another terminal:
 
 ![Screenshot from 2025-05-20 16-57-41](https://github.com/user-attachments/assets/1e5bc9bd-ac89-4966-a238-d790facf5cf0)
 
-## progress:
-from 1st task
+## To-Do:
+1.Practising simulation
 - [x] 2-wheel differential drive robot URDF
 - [x] Attach LIDAR and IMU sensors
 - [x] Publish LIDAR & IMU topics
@@ -101,7 +101,7 @@ from 1st task
 - [ ] Map creation
 - [ ] Nav2 integration
 
-from 2nd task
+2.Practising ros basics
 - [x] Packages: training_interfaces, training
 - [x] Publisher and subscriber nodes with custom msg 'person.msg'
 - [x] Sevice & Cleint with Custom service 'value.srv' 
